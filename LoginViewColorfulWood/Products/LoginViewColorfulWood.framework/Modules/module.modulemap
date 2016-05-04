@@ -1,0 +1,6 @@
+framework module LoginViewColorfulWood {
+  umbrella header "LoginViewColorfulWood.h"
+
+  export *
+  module * { export * }
+}

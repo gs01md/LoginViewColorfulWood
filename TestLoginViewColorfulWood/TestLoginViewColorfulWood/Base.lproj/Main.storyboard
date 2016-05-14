@@ -25,7 +25,6 @@
         <!--Table View Controller-->
         <scene sceneID="rhz-mz-48I">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hjX-wB-FfD" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController wantsFullScreenLayout="YES" id="Lxe-Sl-avr" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="V58-GJ-TwJ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
@@ -94,6 +93,7 @@
                         </leftBarButtonItems>
                     </navigationItem>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hjX-wB-FfD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2049" y="165"/>
         </scene>

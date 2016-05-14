@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F453F7DF1CDADE75007EBC0B /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F453F7DD1CDADE75007EBC0B /* testViewController.m */; };
+		F453F7E01CDADE75007EBC0B /* testViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F453F7DE1CDADE75007EBC0B /* testViewController.xib */; };
 		F45AE4991CD9936500B959F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F45AE4981CD9936500B959F9 /* main.m */; };
 		F45AE49C1CD9936500B959F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F45AE49B1CD9936500B959F9 /* AppDelegate.m */; };
 		F45AE49F1CD9936500B959F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45AE49E1CD9936500B959F9 /* ViewController.m */; };
@@ -18,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F453F7DC1CDADE75007EBC0B /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		F453F7DD1CDADE75007EBC0B /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
+		F453F7DE1CDADE75007EBC0B /* testViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testViewController.xib; sourceTree = "<group>"; };
 		F45AE4941CD9936500B959F9 /* TestLoginViewColorfulWood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLoginViewColorfulWood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F45AE4981CD9936500B959F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F45AE49A1CD9936500B959F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,6 +78,9 @@
 				F45AE4A51CD9936500B959F9 /* LaunchScreen.storyboard */,
 				F45AE4A81CD9936500B959F9 /* Info.plist */,
 				F45AE4971CD9936500B959F9 /* Supporting Files */,
+				F453F7DC1CDADE75007EBC0B /* testViewController.h */,
+				F453F7DD1CDADE75007EBC0B /* testViewController.m */,
+				F453F7DE1CDADE75007EBC0B /* testViewController.xib */,
 			);
 			path = TestLoginViewColorfulWood;
 			sourceTree = "<group>";
@@ -147,6 +155,7 @@
 				F45AE4A41CD9936500B959F9 /* Assets.xcassets in Resources */,
 				F45AE4B71CD9F67C00B959F9 /* VGscoreCardBack.png in Resources */,
 				F45AE4A21CD9936500B959F9 /* Main.storyboard in Resources */,
+				F453F7E01CDADE75007EBC0B /* testViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +168,7 @@
 			files = (
 				F45AE49F1CD9936500B959F9 /* ViewController.m in Sources */,
 				F45AE49C1CD9936500B959F9 /* AppDelegate.m in Sources */,
+				F453F7DF1CDADE75007EBC0B /* testViewController.m in Sources */,
 				F45AE4991CD9936500B959F9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

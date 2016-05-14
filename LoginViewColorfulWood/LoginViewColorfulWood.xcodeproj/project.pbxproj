@@ -21,16 +21,20 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		F453F7D91CDADDED007EBC0B /* LoginViewController_ColorfulWood.h in Headers */ = {isa = PBXBuildFile; fileRef = F453F7D61CDADDED007EBC0B /* LoginViewController_ColorfulWood.h */; };
+		F453F7DA1CDADDED007EBC0B /* LoginViewController_ColorfulWood.m in Sources */ = {isa = PBXBuildFile; fileRef = F453F7D71CDADDED007EBC0B /* LoginViewController_ColorfulWood.m */; };
+		F453F7DB1CDADDED007EBC0B /* LoginViewController_ColorfulWood.xib in Resources */ = {isa = PBXBuildFile; fileRef = F453F7D81CDADDED007EBC0B /* LoginViewController_ColorfulWood.xib */; };
 		F45AE47F1CD98CCF00B959F9 /* LoginViewColorfulWood.h in Headers */ = {isa = PBXBuildFile; fileRef = F45AE47E1CD98CCF00B959F9 /* LoginViewColorfulWood.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F45AE4AF1CD9A02400B959F9 /* LoginViewColorfulWood.xib in Resources */ = {isa = PBXBuildFile; fileRef = F45AE4AE1CD9A02400B959F9 /* LoginViewColorfulWood.xib */; };
 		F45AE4B51CD9BE1700B959F9 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45AE4B41CD9BE1700B959F9 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F453F7D61CDADDED007EBC0B /* LoginViewController_ColorfulWood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController_ColorfulWood.h; sourceTree = "<group>"; };
+		F453F7D71CDADDED007EBC0B /* LoginViewController_ColorfulWood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController_ColorfulWood.m; sourceTree = "<group>"; };
+		F453F7D81CDADDED007EBC0B /* LoginViewController_ColorfulWood.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController_ColorfulWood.xib; sourceTree = "<group>"; };
 		F45AE47B1CD98CCF00B959F9 /* LoginViewColorfulWood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoginViewColorfulWood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F45AE47E1CD98CCF00B959F9 /* LoginViewColorfulWood.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewColorfulWood.h; sourceTree = "<group>"; };
 		F45AE4801CD98CCF00B959F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F45AE4AE1CD9A02400B959F9 /* LoginViewColorfulWood.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewColorfulWood.xib; sourceTree = "<group>"; };
 		F45AE4B41CD9BE1700B959F9 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,7 +71,9 @@
 			children = (
 				F45AE47E1CD98CCF00B959F9 /* LoginViewColorfulWood.h */,
 				F45AE4801CD98CCF00B959F9 /* Info.plist */,
-				F45AE4AE1CD9A02400B959F9 /* LoginViewColorfulWood.xib */,
+				F453F7D61CDADDED007EBC0B /* LoginViewController_ColorfulWood.h */,
+				F453F7D71CDADDED007EBC0B /* LoginViewController_ColorfulWood.m */,
+				F453F7D81CDADDED007EBC0B /* LoginViewController_ColorfulWood.xib */,
 			);
 			path = LoginViewColorfulWood;
 			sourceTree = "<group>";
@@ -79,6 +85,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F453F7D91CDADDED007EBC0B /* LoginViewController_ColorfulWood.h in Headers */,
 				F45AE47F1CD98CCF00B959F9 /* LoginViewColorfulWood.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,7 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F45AE4B51CD9BE1700B959F9 /* Media.xcassets in Resources */,
-				F45AE4AF1CD9A02400B959F9 /* LoginViewColorfulWood.xib in Resources */,
+				F453F7DB1CDADDED007EBC0B /* LoginViewController_ColorfulWood.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F453F7DA1CDADDED007EBC0B /* LoginViewController_ColorfulWood.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
